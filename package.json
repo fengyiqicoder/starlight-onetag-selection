@@ -1,0 +1,14 @@
+{
+  "name": "starlight-onetag-selection",
+  "version": "0.1.0",
+  "description": "Select any text in your Starlight docs and ask AI about it: a small Ask AI button appears next to the selection and explains it in context. No backend.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["astro", "starlight", "starlight-plugin", "withastro", "docs", "ai", "onetag", "no-backend", "selection", "highlight", "explain", "ask-ai"],
+  "repository": { "type": "git", "url": "git+https://github.com/fengyiqicoder/starlight-onetag-selection.git" },
+  "homepage": "https://github.com/fengyiqicoder/starlight-onetag-selection",
+  "exports": { ".": "./index.js", "./client": "./client.js" },
+  "files": ["index.js", "client.js", "plugin.js", "shared.js", "README.md", "LICENSE"],
+  "dependencies": { "onetagai": "^1.2.0" },
+  "peerDependencies": { "@astrojs/starlight": ">=0.32.0", "astro": ">=5.0.0" }
+}
