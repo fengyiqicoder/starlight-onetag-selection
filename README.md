@@ -13,14 +13,16 @@ Live demo: the [Astro AI Docs](https://fengyiqicoder.github.io/astro-ai-docs/) t
 ## Install
 
 ```bash
-npm install starlight-onetag-selection
+npm install starlight-onetag
 ```
+
+This plugin ships inside the [`starlight-onetag`](https://www.npmjs.com/package/starlight-onetag) package (0.2.0 and later) as `starlight-onetag/selection`. This repository holds its source and docs.
 
 ```js
 // astro.config.mjs
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
-import starlightOnetagSelection from "starlight-onetag-selection";
+import starlightOnetagSelection from "starlight-onetag/selection";
 
 export default defineConfig({
   integrations: [
